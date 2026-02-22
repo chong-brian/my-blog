@@ -1,4 +1,3 @@
-import React from 'react';
 import AddCommentForm from './AddCommentForm';
 
 const CommentsList = ({ comments, articleName, setArticleInfo }) => (
