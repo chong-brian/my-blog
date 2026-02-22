@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import CommentsList from '../components/CommentsList';
 import UpvotesSection from '../components/UpvotesSection';
 import articles from './article-content';
 
-const ArticlePage = ({ match }) => {
-    const { name } = match.params;
+const ArticlePage = () => {
+    const { name } = useParams();
 
     const [articleInfo, setArticleInfo] = useState({ upvotes: 0, comments: [] });
 
