@@ -12,7 +12,7 @@ A React blog application built with [Vite](https://vitejs.dev/), [React 19](http
 
 ### Prerequisites
 
-- Node.js (`^20.19.0 || >=22.12.0`)
+- Node.js (`>=20.19.0`)
 - A backend API server running on `http://localhost:8000`
 
 ### Install Dependencies
