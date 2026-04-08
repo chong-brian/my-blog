@@ -12,7 +12,7 @@ A React blog application built with [Vite](https://vitejs.dev/), [React 19](http
 
 ### Prerequisites
 
-- Node.js (v18+)
+- Node.js (`>=20.19.0`)
 - A backend API server running on `http://localhost:8000`
 
 ### Install Dependencies
@@ -36,6 +36,10 @@ Builds the app for production to the `dist` folder. The build is minified and fi
 ### `npm run preview`
 
 Serves the production build locally for previewing before deployment.
+
+### `npm test`
+
+Runs the test suite once using Vitest.
 
 ## Project Structure
 
